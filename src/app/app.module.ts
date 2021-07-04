@@ -13,6 +13,7 @@ import { TestimonialsComponent } from './modules/testimonials/testimonials.compo
 import { TrendingComponent } from './modules/trending/trending.component';
 import { ContactComponent } from './modules/contact/contact.component';
 import { CtaComponent } from './modules/cta/cta.component';
+import { LoginComponent } from './auth/login/login.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { CtaComponent } from './modules/cta/cta.component';
     TestimonialsComponent,
     TrendingComponent,
     ContactComponent,
-    CtaComponent
+    CtaComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
