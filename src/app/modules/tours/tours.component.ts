@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ToursService } from 'src/app/shared/services/tours.service';
 
 @Component({
   selector: 'app-tours',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tours.component.css']
 })
 export class ToursComponent implements OnInit {
-
-  constructor() { }
+  tours:any;
+  constructor(private tourServ :ToursService) { }
 
   ngOnInit() {
+    console.log(this.tourServ.getTours());
+    this.tours=this.tourServ.getTours();
   }
 
 }
