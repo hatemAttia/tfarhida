@@ -313,12 +313,12 @@ section
 {
 	position: fixed;
 	width: 100%;
-	background: rgba(54, 19, 84, 0.6);
+	background: rgb(45 81 145 / 60%);
 	z-index: 12;
 }
 .header.scrolled
 {
-	background: rgba(54, 19, 84, 0.85);
+	background: rgb(45 81 145 / 60%);
 }
 
 /*********************************
@@ -329,7 +329,7 @@ section
 {
 	width: 100%;
 	height: 36px;
-	background: #350a4e;
+	background: rgb(45 81 145 / 60%);
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
 	-ms-transition: all 400ms ease;
@@ -764,7 +764,9 @@ section
 	width: 100%;
 	height: 100%;
 	z-index: 10;
-	background: #31124b;
+	/* background: #31124b; */
+	background: rgb(45 81 145 / 60%);
+
 }
 .home_slider
 {
@@ -786,7 +788,7 @@ section
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	opacity:0.5;
+	opacity:0.8;
 }
 .home_slider_content
 {
@@ -1191,7 +1193,7 @@ section
 	width: 100%;
 	height: 100%;
 	z-index: 2;
-	background: rgba(49, 18, 75, 0.55);
+	background: rgb(45 81 145 / 20%);
 }
 .intro_item_background
 {
@@ -1229,7 +1231,7 @@ section
 	font-weight: 400;
 	color: #FFFFFF;
 	line-height: 27px;
-	background: #fa9e1c;
+	background: #dfd656;
 	border-radius: 14px;
 }
 .intro_button
@@ -1894,7 +1896,9 @@ section
 	width: 100%;
 	padding-top: 113px;
 	padding-bottom: 104px;
-	background: #31124b;
+	/* background: #31124b; */
+	background: rgb(45 81 145 );
+
 }
 .footer_title
 {
