@@ -256,7 +256,7 @@ section
 	left: 0;
 	width: 200%;
 	height: 100%;
-	background: linear-gradient(to right, #fbef3c, #135bdd, #fbef3c);
+	background: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
 	z-index: -1;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
@@ -313,12 +313,12 @@ section
 {
 	position: fixed;
 	width: 100%;
-	background: rgb(45 81 145 / 60%);
+	background: rgba(54, 19, 84, 0.6);
 	z-index: 12;
 }
 .header.scrolled
 {
-	background: rgb(45 81 145 / 60%);
+	background: rgba(54, 19, 84, 0.85);
 }
 
 /*********************************
@@ -329,7 +329,7 @@ section
 {
 	width: 100%;
 	height: 36px;
-	background: rgb(45 81 145 / 60%);
+	background: #350a4e;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
 	-ms-transition: all 400ms ease;
@@ -509,7 +509,7 @@ section
 	bottom: -11px;
 	width: calc(100% + 2px);
 	height: 2px;
-	background: linear-gradient(to right, #fbef3c, #135bdd);
+	background: linear-gradient(to right, #fa9e1b, #8d4fff);
 	content: '';
 	opacity: 0;
 	-webkit-transition: all 200ms ease;
@@ -629,7 +629,7 @@ section
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(to right, #fbef3c, #135bdd);
+	background: linear-gradient(to right, #fa9e1b, #8d4fff);
 	z-index: 100;
 	opacity: 0;
 	visibility: hidden;
@@ -764,9 +764,7 @@ section
 	width: 100%;
 	height: 100%;
 	z-index: 10;
-	/* background: #31124b; */
-	background: rgb(45 81 145 / 60%);
-
+	background: #31124b;
 }
 .home_slider
 {
@@ -788,7 +786,7 @@ section
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	opacity:0.8;
+	opacity:0.5;
 }
 .home_slider_content
 {
@@ -937,7 +935,7 @@ section
 {
 	width: 100%;
 	height: 192px;
-	background: linear-gradient(to right, #fbef3c, #135bdd);
+	background: linear-gradient(to right, #fa9e1b, #8d4fff);
 	z-index: 10;
 }
 .search_tabs_container
@@ -989,7 +987,7 @@ section
 }
 .search_tab.active
 {
-	background: #fbef3c;
+	background: #fa9e1b;
 	color: #FFFFFF;
 }
 .search_tab.active img
@@ -1002,7 +1000,7 @@ section
 }
 .search_tab:hover
 {
-	background: #fbef3c;
+	background: #fa9e1b;
 	color: #FFFFFF;
 }
 .search_tab:hover img
@@ -1193,7 +1191,7 @@ section
 	width: 100%;
 	height: 100%;
 	z-index: 2;
-	background: rgb(45 81 145 / 20%);
+	background: rgba(49, 18, 75, 0.55);
 }
 .intro_item_background
 {
@@ -1231,7 +1229,7 @@ section
 	font-weight: 400;
 	color: #FFFFFF;
 	line-height: 27px;
-	background: #dfd656;
+	background: #fa9e1c;
 	border-radius: 14px;
 }
 .intro_button
@@ -1285,11 +1283,11 @@ section
 .rating_4 i:first-child{color: #ffeb8d;}
 .rating_4 i:nth-child(2){color: #fed46b;}
 .rating_4 i:nth-child(3){color: #fbb53d;}
-.rating_4 i:nth-child(4){color: #fbef3c;}
+.rating_4 i:nth-child(4){color: #fa9e1b;}
 .rating_5 i:first-child{color: #ffeb8d;}
 .rating_5 i:nth-child(2){color: #fed46b;}
 .rating_5 i:nth-child(3){color: #fbb53d;}
-.rating_5 i:nth-child(4){color: #fbef3c;}
+.rating_5 i:nth-child(4){color: #fa9e1b;}
 .rating_5 i:nth-child(5){color: #ef910a;}
 
 /*********************************
@@ -1300,7 +1298,7 @@ section
 {
 	padding-top: 125px;
 	padding-bottom: 116px;
-	background: linear-gradient(to right, #fbef3c, #135bdd);
+	background: linear-gradient(to right, #fa9e1b, #8d4fff);
 }
 .cta_background
 {
@@ -1366,11 +1364,11 @@ section
 .rating_r_4 i:first-child::before{color: #ffeb8d; content: "\f005";}
 .rating_r_4 i:nth-child(2)::before{color: #fed46b; content: "\f005";}
 .rating_r_4 i:nth-child(3)::before{color: #fbb53d; content: "\f005";}
-.rating_r_4 i:nth-child(4)::before{color: #fbef3c; content: "\f005";}
+.rating_r_4 i:nth-child(4)::before{color: #fa9e1b; content: "\f005";}
 .rating_r_5 i:first-child::before{color: #ffeb8d; content: "\f005";}
 .rating_r_5 i:nth-child(2)::before{color: #fed46b; content: "\f005";}
 .rating_r_5 i:nth-child(3)::before{color: #fbb53d; content: "\f005";}
-.rating_r_5 i:nth-child(4)::before{color: #fbef3c; content: "\f005";}
+.rating_r_5 i:nth-child(4)::before{color: #fa9e1b; content: "\f005";}
 .rating_r_5 i:nth-child(5)::before{color: #ef910a; content: "\f005";}
 .cta_slider_nav
 {
@@ -1449,7 +1447,7 @@ section
 	bottom: 27px;
 	width: 180px;
 	height: 33px;
-	background: #fbef3c;
+	background: #fa9e1b;
 	overflow: hidden;
 }
 .offer_name a
@@ -1528,7 +1526,7 @@ section
 }
 .offers_link a:hover
 {
-	color: #fbef3c;
+	color: #fa9e1b;
 }
 
 /*********************************
@@ -1549,7 +1547,7 @@ section
 	bottom: 0;
 	width: 100%;
 	height: 2px;
-	background: linear-gradient(to right, #fbef3c, #135bdd);
+	background: linear-gradient(to right, #fa9e1b, #8d4fff);
 }
 
 /*********************************
@@ -1572,7 +1570,7 @@ section
 	left: 41px;
 	width: 72px;
 	height: 72px;
-	background: #fbef3c;
+	background: #fa9e1b;
 	border-radius: 50%;
 	overflow: hidden;
 }
@@ -1730,13 +1728,13 @@ section
 }
 .trending_title a:hover
 {
-	color: #fbef3c;
+	color: #fa9e1b;
 }
 .trending_price
 {
 	font-size: 14px;
 	font-weight: 700;
-	color: #fbef3c;
+	color: #fa9e1b;
 	margin-top: 2px;
 }
 .trending_location
@@ -1781,7 +1779,7 @@ section
 	padding-left: 48px;
 	padding-right: 48px;
 	padding-bottom: 88px;
-	background: linear-gradient(to top right, #fbef3c, #135bdd);
+	background: linear-gradient(to top right, #fa9e1b, #8d4fff);
 }
 .contact_form
 {
@@ -1896,9 +1894,7 @@ section
 	width: 100%;
 	padding-top: 113px;
 	padding-bottom: 104px;
-	/* background: #31124b; */
-	background: rgb(45 81 145 );
-
+	background: #31124b;
 }
 .footer_title
 {
@@ -1933,7 +1929,7 @@ section
 	display: inline-block;
 	width: 31px;
 	height: 31px;
-	border: solid 1px #fbef3c;
+	border: solid 1px #fa9e1b;
 	border-radius: 50%;
 	text-align: center;
 	-webkit-transition: all 200ms ease;
@@ -1974,7 +1970,7 @@ section
 }
 .footer_social_item:hover
 {
-	background: #fbef3c;
+	background: #fa9e1b;
 }
 .footer_social_item:hover a i
 {
@@ -2024,13 +2020,13 @@ section
 }
 .footer_blog_title a:hover
 {
-	color: #fbef3c;
+	color: #fa9e1b;
 }
 .footer_blog_date
 {
 	font-size: 12px;
 	font-weight: 400;
-	color: #fbef3c;
+	color: #fa9e1b;
 	margin-top: 7px;
 }
 
@@ -2048,7 +2044,7 @@ section
 	float: left;
 	margin-right: 9px;
 	margin-bottom: 9px;
-	border: solid 1px #fbef3c;
+	border: solid 1px #fa9e1b;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -2057,7 +2053,7 @@ section
 }
 .tag_item:hover
 {
-	background: #fbef3c;
+	background: #fa9e1b;
 }
 .tag_item a
 {
@@ -2103,7 +2099,7 @@ section
 .contact_info_item:hover .contact_info_text,
 .contact_info_item:hover .contact_info_text a
 {
-	color: #fbef3c;
+	color: #fa9e1b;
 }
 
 /*********************************
