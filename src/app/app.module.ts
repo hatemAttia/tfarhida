@@ -14,6 +14,8 @@ import { TrendingComponent } from './modules/trending/trending.component';
 import { ContactComponent } from './modules/contact/contact.component';
 import { CtaComponent } from './modules/cta/cta.component';
 import { LoginComponent } from './auth/login/login.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { SignupComponent } from './auth/signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -27,9 +29,11 @@ import { LoginComponent } from './auth/login/login.component';
     TrendingComponent,
     ContactComponent,
     CtaComponent,
-    LoginComponent
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
+    ReactiveFormsModule,
     BrowserModule,
     RouterModule,
     AppRoutingModule

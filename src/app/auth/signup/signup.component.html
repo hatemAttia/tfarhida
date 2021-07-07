@@ -2,21 +2,33 @@
     <div class="form-v7-content">
         <div class="form-left">
             <img src="assets/images/blog_2.jpg" alt="form">
-            <p class="text-1">Log in</p>
+            <p class="text-1">Sign Up</p>
             <p class="text-2">Privaci policy & Term of service</p>
         </div>
-        <form [formGroup]="loginForm" class="form-detail" id="myform">  
+        <form [formGroup]="signupForm" class="form-detail" id="myform">
+            <div class="form-row">
+                <label for="username">USERNAME</label>
+                <input type="text"  id="username" formControlName="username" class="input-text">
+            </div>
             <div class="form-row">
                 <label for="your_email">E-MAIL</label>
                 <input type="text" id="your_email"  class="input-text" formControlName="adress">
             </div>
             <div class="form-row">
+                <label for="your_email">Telephone</label>
+                <input type="number" id="your_email"  class="input-text" formControlName="phoneNumber">
+            </div>
+            <div class="form-row">
                 <label for="password">PASSWORD</label>
                 <input type="password" class="input-text"  id="password" formControlName="password">
             </div>
+            <div class="form-row">
+                <label for="comfirm_password">CONFIRM PASSWORD</label>
+                <input type="password" class="input-text" id="comfirm_password" formControlName="Confirm_password">
+            </div>
             <div class="form-row-last">
                 <input type="submit" name="register" (click)="onClick()" class="register" value="Register">
-                <p>Or<a [routerLink]="['/signup']" >Sign in</a></p>
+                <p>Or<a  [routerLink]="['/login']" >Sign in</a></p>
             </div>
         </form>
     </div>
