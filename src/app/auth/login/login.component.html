@@ -1,0 +1,23 @@
+<div class="page-content">
+    <div class="form-v7-content">
+        <div class="form-left">
+            <img src="assets/images/blog_2.jpg" alt="form">
+            <p class="text-1">Log in</p>
+            <p class="text-2">Privaci policy & Term of service</p>
+        </div>
+        <form [formGroup]="loginForm" class="form-detail" id="myform">  
+            <div class="form-row">
+                <label for="your_email">E-MAIL</label>
+                <input type="text" id="your_email"  class="input-text" formControlName="adress">
+            </div>
+            <div class="form-row">
+                <label for="password">PASSWORD</label>
+                <input type="password" class="input-text"  id="password" formControlName="password">
+            </div>
+            <div class="form-row-last">
+                <input type="submit" name="register" (click)="onClick()" class="register" value="Register">
+                <p>Or<a [routerLink]="['/signup']" >Sign in</a></p>
+            </div>
+        </form>
+    </div>
+</div>
