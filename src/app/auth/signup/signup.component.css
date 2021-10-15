@@ -6,7 +6,7 @@ body {
 	margin:  0 auto;
 	background-image: -moz-linear-gradient( 136deg, rgb(254,225,64) 0%, rgb(250,112,154) 100%);
     background-image: -webkit-linear-gradient( 136deg, rgb(254,225,64) 0%, rgb(250,112,154) 100%);
-    background-image: -ms-linear-gradient( 136deg, rgb(254,225,64) 0%, rgb(250,112,154) 100%);
+    background-image: linear-gradient( 136deg, #fbef3c, #135bdd);
 	display: flex;
 	display: -webkit-flex;
 	justify-content: center;
@@ -49,6 +49,7 @@ body {
 	top: 1.5%;
 }
 .form-v7-content .form-left .text-2 {
+    background-color: #0000009e;
 	font-size: 16px;
 	bottom: 11%;
 }
