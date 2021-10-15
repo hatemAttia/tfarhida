@@ -16,6 +16,8 @@ import { CtaComponent } from './modules/cta/cta.component';
 import { LoginComponent } from './auth/login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SignupComponent } from './auth/signup/signup.component';
+import { RatingModule } from 'ng-starrating';
+import { GeolocationComponent } from './modules/geolocation/geolocation.component';
 
 @NgModule({
   declarations: [
@@ -30,9 +32,11 @@ import { SignupComponent } from './auth/signup/signup.component';
     ContactComponent,
     CtaComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    GeolocationComponent
   ],
   imports: [
+    RatingModule,
     ReactiveFormsModule,
     BrowserModule,
     RouterModule,
