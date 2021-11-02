@@ -16,37 +16,37 @@ export class GeolocationComponent implements OnInit {
   }
 
   getLocation() {
-    navigator.geolocation.getCurrentPosition(
-      function () {
-        alert("Location accessed");
-      },
-      function () {
-        alert("User not allowed");
-      },
-      { timeout: 10000 }
-    );
+    // navigator.geolocation.getCurrentPosition(
+    //   function () {
+    //     alert("Location accessed");
+    //   },
+    //   function () {
+    //     alert("User not allowed");
+    //   },
+    //   { timeout: 10000 }
+    // );
    
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(
-        (position: Position) => {
-          if (position) {
-            console.log(
-              'Latitude: ' +
-                position.coords.latitude +
-                'Longitude: ' +
-                position.coords.longitude
-            );
-            this.lat = position.coords.latitude;
-            this.lng = position.coords.longitude;
-            console.log(this.lat);
-            console.log(this.lng);
-          }
-        },
-        (error: PositionError) => console.log(error)
-      );
-    } else {
-      alert('Geolocation is not supported by this browser.');
-    }
+    // if (navigator.geolocation) {
+    //   navigator.geolocation.getCurrentPosition(
+    //     (position: Position) => {
+    //       if (position) {
+    //         console.log(
+    //           'Latitude: ' +
+    //             position.coords.latitude +
+    //             'Longitude: ' +
+    //             position.coords.longitude
+    //         );
+    //         this.lat = position.coords.latitude;
+    //         this.lng = position.coords.longitude;
+    //         console.log(this.lat);
+    //         console.log(this.lng);
+    //       }
+    //     },
+    //     (error: PositionError) => console.log(error)
+    //   );
+    // } else {
+    //   alert('Geolocation is not supported by this browser.');
+    // }
   }
   
   

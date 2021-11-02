@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavBarComponent } from './shared/components/nav-bar/nav-bar.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
-import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { ToursComponent } from './modules/tours/tours.component';
 import { BestOffersComponent } from './modules/best-offers/best-offers.component';
@@ -17,7 +16,6 @@ import { LoginComponent } from './auth/login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SignupComponent } from './auth/signup/signup.component';
 import { RatingModule } from 'ng-starrating';
-import { GeolocationComponent } from './modules/geolocation/geolocation.component';
 
 @NgModule({
   declarations: [
@@ -33,13 +31,11 @@ import { GeolocationComponent } from './modules/geolocation/geolocation.componen
     CtaComponent,
     LoginComponent,
     SignupComponent,
-    GeolocationComponent
   ],
   imports: [
     RatingModule,
     ReactiveFormsModule,
     BrowserModule,
-    RouterModule,
     AppRoutingModule
   ],
   providers: [],

@@ -4,7 +4,7 @@ export interface Tours{
     amount:string;
     image:string;
     description:string;
-    datestart:number;
+    datestart:Number;
     rate:number;
-    dateend:number;
+    dateend:Number;
 }
